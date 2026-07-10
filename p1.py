@@ -1,6 +1,6 @@
-#print num from 1 to 5
-print("1")
-print("2")
-print("3")
-print("4")
-print("5")
+class student:
+    name="kaushal shinde "
+    name1="raj pal"
+
+s1=student()
+print(s1.name ,"  ", s1.name1)

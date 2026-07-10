@@ -1,11 +1,8 @@
-# WAPP to print numbers from 1 to n
-
-n = int(input("Enter a number "))
-
-if n > 0:
-    i = 1
-    while i <= n:
-        print(i)
-        i = i + 1
-else:
-    print("Enter a positive number")
+class solution:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+s1=solution("kaushal",25)
+print(s1.name)
+print(s1.age)
+#constructor 

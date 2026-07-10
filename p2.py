@@ -1,5 +1,6 @@
-#print number using while loop from 1 to 5
-i=1
-while i<5:
-    i=i+1
-    print(i)
+class car:
+    color=input("enter color as per your choice ")
+    model=input("enter car model as per your choice ")
+car1=car()
+print(car1.model ,"is a model and your choise  color is ",car1.color)
+

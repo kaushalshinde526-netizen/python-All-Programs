@@ -1,0 +1,6 @@
+def second_largest(nums):
+    unique = sorted (set(nums))
+    if len(unique) < 2:
+        return None
+    return unique[-2]
+print(second_largest([10,20,20,5])),
